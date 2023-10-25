@@ -16,17 +16,17 @@ This is a simple example of how to implement navigation in a SwiftUI app using t
 
 <ins>ContentView</ins> is a SwiftUI view that serves as the main screen of your app. It's structured using the NavigationView component, which provides a navigation container for your content. Inside the NavigationView, you have a List that displays a list of items. You use NavigationLink to create interactive items within this list, which, when tapped, navigate the user to another view (in this case, DetailView) to display more details about the selected item -
 
-1)NavigationView: Wraps the entire content to enable navigation within the view hierarchy.
-2)List: This displays a list of items. Each item is a NavigationLink that links to the DetailView when tapped.
-3)NavigationLink: These are the individual list items. When one is tapped, it navigates to the specified destination view (DetailView) and passes an item parameter.
+1)NavigationView: Wraps the entire content to enable navigation within the view hierarchy. <br>
+2)List: This displays a list of items. Each item is a NavigationLink that links to the DetailView when tapped.<br>
+3)NavigationLink: These are the individual list items. When one is tapped, it navigates to the specified destination view <br>(DetailView) and passes an item parameter.
 
 
 - DetailView:<br>
 
-<ins>DetailView</ins>is a separate SwiftUI view that displays detailed information about the selected item. It takes an item parameter, which is used to customize the view's content and set the navigation title. In this case, it displays "Detail View for [item]" with a larger title font and sets the navigation title to the selected item.
+<ins>DetailView</ins>is a separate SwiftUI view that displays detailed information about the selected item. It takes an item parameter, which is used to customize the view's content and set the navigation title. In this case, it displays "Detail View for [item]" with a larger title font and sets the navigation title to the selected item.<br>
 
-1)Text: Displays the item name with a larger title font.
-2)navigationTitle: Sets the navigation bar title to the selected item.
+1)Text: Displays the item name with a larger title font.<br>
+2)navigationTitle: Sets the navigation bar title to the selected item.<br>
 
 
 - NavigationDemoApp: <br>
