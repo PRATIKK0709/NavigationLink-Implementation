@@ -14,7 +14,7 @@ This is a simple example of how to implement navigation in a SwiftUI app using t
 
 - ContentView: <br>
 
-<ins>ContentView<ins> is a SwiftUI view that serves as the main screen of your app. It's structured using the NavigationView component, which provides a navigation container for your content. Inside the NavigationView, you have a List that displays a list of items. You use NavigationLink to create interactive items within this list, which, when tapped, navigate the user to another view (in this case, DetailView) to display more details about the selected item -
+<ins>ContentView</ins> is a SwiftUI view that serves as the main screen of your app. It's structured using the NavigationView component, which provides a navigation container for your content. Inside the NavigationView, you have a List that displays a list of items. You use NavigationLink to create interactive items within this list, which, when tapped, navigate the user to another view (in this case, DetailView) to display more details about the selected item -
 
 NavigationView: Wraps the entire content to enable navigation within the view hierarchy.
 
@@ -24,7 +24,7 @@ NavigationLink: These are the individual list items. When one is tapped, it navi
 
 
 - DetailView:<br>
-<u>DetailView<u>is a separate SwiftUI view that displays detailed information about the selected item. It takes an item parameter, which is used to customize the view's content and set the navigation title. In this case, it displays "Detail View for [item]" with a larger title font and sets the navigation title to the selected item.
+<ins>DetailView</ins>is a separate SwiftUI view that displays detailed information about the selected item. It takes an item parameter, which is used to customize the view's content and set the navigation title. In this case, it displays "Detail View for [item]" with a larger title font and sets the navigation title to the selected item.
 
 `Text:` Displays the item name with a larger title font.
 
@@ -32,4 +32,4 @@ NavigationLink: These are the individual list items. When one is tapped, it navi
 
 
 - NavigationDemoApp:
-This part defines the app's entry point. It's a @main struct that conforms to the App protocol and specifies the initial view to be displayed when the app is launched. In this case, it sets the ContentView as the initial view.
+<ins>NavigationDemoApp</ins> defines the app's entry point. It's a @main struct that conforms to the App protocol and specifies the initial view to be displayed when the app is launched. In this case, it sets the ContentView as the initial view.
