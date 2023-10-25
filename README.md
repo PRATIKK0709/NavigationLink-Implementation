@@ -31,3 +31,13 @@ This is a simple example of how to implement navigation in a SwiftUI app using t
 - NavigationDemoApp: <br>
 
 <ins>NavigationDemoApp</ins> defines the app's entry point. It's a @main struct that conforms to the App protocol and specifies the initial view to be displayed when the app is launched. In this case, it sets the ContentView as the initial view.
+
+## Screenshot
+
+![Simulator Screenshot - iPhone 15 Pro - 2023-10-26 at 03 33 32](https://github.com/PRATIKK0709/NavigationLink-Implementation/assets/139443204/117efd09-d1ed-4646-b010-06d90bda127d)
+
+
+![Simulator Screenshot - iPhone 15 Pro - 2023-10-26 at 03 33 47](https://github.com/PRATIKK0709/NavigationLink-Implementation/assets/139443204/36594ee8-e9b1-46d8-b0b6-ccdc1e2d7e8b)
+
+
+
