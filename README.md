@@ -35,8 +35,8 @@ This is a simple example of how to implement navigation in a SwiftUI app using t
 ## Screenshot
 
 
-<img src="https://github.com/PRATIKK0709/NavigationLink-Implementation/assets/139443204/117efd09-d1ed-4646-b010-06d90bda127d" width="450" height="975.57">
+<img src="https://github.com/PRATIKK0709/NavigationLink-Implementation/assets/139443204/117efd09-d1ed-4646-b010-06d90bda127d" width="300" height="650.38">
 
 
-<img src="https://github.com/PRATIKK0709/NavigationLink-Implementation/assets/139443204/36594ee8-e9b1-46d8-b0b6-ccdc1e2d7e8b" width="450" height="975.57">
+<img src="https://github.com/PRATIKK0709/NavigationLink-Implementation/assets/139443204/36594ee8-e9b1-46d8-b0b6-ccdc1e2d7e8b" width="300" height="650.38">
 
