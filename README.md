@@ -24,7 +24,7 @@ ContentView is a SwiftUI view that serves as the main screen of your app. It's s
 
 
 - DetailView:<br>
-__DetailView__ is a separate SwiftUI view that displays detailed information about the selected item. It takes an item parameter, which is used to customize the view's content and set the navigation title. In this case, it displays "Detail View for [item]" with a larger title font and sets the navigation title to the selected item.
+<u>DetailView<u>is a separate SwiftUI view that displays detailed information about the selected item. It takes an item parameter, which is used to customize the view's content and set the navigation title. In this case, it displays "Detail View for [item]" with a larger title font and sets the navigation title to the selected item.
 
 `Text:` Displays the item name with a larger title font.
 
