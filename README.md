@@ -14,13 +14,13 @@ This is a simple example of how to implement navigation in a SwiftUI app using t
 
 - ContentView: <br>
 
-ContentView is a SwiftUI view that serves as the main screen of your app. It's structured using the NavigationView component, which provides a navigation container for your content. Inside the NavigationView, you have a List that displays a list of items. You use NavigationLink to create interactive items within this list, which, when tapped, navigate the user to another view (in this case, DetailView) to display more details about the selected item -
+<ins>ContentView<ins> is a SwiftUI view that serves as the main screen of your app. It's structured using the NavigationView component, which provides a navigation container for your content. Inside the NavigationView, you have a List that displays a list of items. You use NavigationLink to create interactive items within this list, which, when tapped, navigate the user to another view (in this case, DetailView) to display more details about the selected item -
 
-`NavigationView:` Wraps the entire content to enable navigation within the view hierarchy.
+NavigationView: Wraps the entire content to enable navigation within the view hierarchy.
 
-`List:` This displays a list of items. Each item is a NavigationLink that links to the DetailView when tapped.
+List: This displays a list of items. Each item is a NavigationLink that links to the DetailView when tapped.
 
-`NavigationLink:` These are the individual list items. When one is tapped, it navigates to the specified destination view (DetailView) and passes an item parameter.
+NavigationLink: These are the individual list items. When one is tapped, it navigates to the specified destination view (DetailView) and passes an item parameter.
 
 
 - DetailView:<br>
