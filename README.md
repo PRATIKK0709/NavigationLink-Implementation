@@ -1,6 +1,5 @@
-# NavigationLink - Implementation
+# SwiftUI NavigationLink - Implementation
 
-# SwiftUI NavigationLink Demo
 
 This is a simple example of how to implement navigation in a SwiftUI app using the `NavigationLink` component. In this demo, we have a list of items, and when you tap on an item, it takes you to a detail view that displays information about that item.
 
